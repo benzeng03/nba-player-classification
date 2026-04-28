@@ -2,6 +2,8 @@
 
 Unsupervised machine learning project that classifies NBA players into meaningful archetypes using player statistics from the 2023-24 regular season.
 
+![Cluster Radar Charts](figures/09_pca_projection_w_cluster.png)
+
 ---
 
 ## Overview
@@ -82,8 +84,6 @@ Players with fewer than 10 minutes per game or fewer than 20 games played are ex
 - K selected via elbow method and silhouette score
 - k=12 chosen as it is a local silhouette maximum (0.2021) with clear basketball interpretability
 - Model fit on first 6 PCA components
-
-![Cluster Radar Charts](figures/09_pca_projection_w_cluster.png)
 
 ---
 
